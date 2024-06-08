@@ -44,7 +44,7 @@ for smorf in current_smorfs_list:
 print(final_dictionary)
 
 
-output_file = '/home/adriana/uproteins/redo/current_T1-3_torfs_scts.txt'
+output_file = '/home/adriana/uproteins/redo/current_T1-3_torfs.txt'
 with open(output_file, 'w') as file:
     for key, value in final_dictionary.items():
         file.write(f"{key}\t{value}\n")
