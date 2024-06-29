@@ -1,4 +1,4 @@
-"""rename SCTs according to smorf names"""
+"""remove SCTs that don't belong to T1-T3 anymore"""
 
 import pandas as pd
 import sys
