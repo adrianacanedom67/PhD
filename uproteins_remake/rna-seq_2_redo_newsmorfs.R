@@ -3,7 +3,7 @@ library(airway)
 library(tidyverse)
 
 
-counts_data <- read.csv("/home/adriana/uproteins/isolates/two_strains/two_strains_counts_filtered_updated_2_RENAMED.csv", check.names = FALSE)
+counts_data <- read.csv("/home/adriana/uproteins/redo/differential_expression/isolates/two_strains_counts_filtered_updated_2_RENAMED.csv", check.names = FALSE)
 # counts_data <- read_excel("/home/adriana/uproteins/isolates/two_strains/two_strains_counts_filtered_updated_2_RENAMED.xlsx")
 head(counts_data)
 
